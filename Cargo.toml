@@ -1,0 +1,56 @@
+# Cargo.toml
+
+[package]
+# Project name, used for unique identification on crates.io
+name = "statsrust"
+# Project versions follow Semantic Versioning
+version = "0.1.0"
+# Rust edition
+edition = "2021"
+# A short description of the project, displayed on crates.io
+description = "A comprehensive Rust library for statistical analysis, providing a wide range of descriptive statsrust, probability distributions, and non-parametric methods."
+# The project's license terms, based on the source material, are MIT and CC-BY-4.0
+license = "Apache-2.0 OR MIT"
+# List of project authors
+authors = ["semmyenator"]
+# The project's GitHub repository URL (replace with an actual link)
+repository = "https://github.com/semmyenator/statsrust"
+# A link to the project's homepage or documentation (can point to GitHub or docs.rs)
+homepage = "https://github.com/semmyenator/statsrust"
+# A link to the project's documentation (usually pointing to docs.rs, which is automatically generated)
+documentation = "https://docs.rs/statsrust"
+# Keywords describing the project content, which are helpful for searching
+keywords = ["statsrust", "data-analysis", "mathematics", "kde", "normal-distribution", "probability", "numerical-stability"]
+# The category to which the project belongs, which helps in browsing
+categories = ["science", "science::mathematics", "science::data-analysis"]
+# The path to the README file, which will be displayed on the crates.io page
+readme = "README.md"
+
+
+[lib]
+# Name of the library
+name = "statsrust"
+# The original file path of the library
+path = "src/lib.rs"
+
+
+[dependencies]
+# A crate that simplifies defining custom error types
+thiserror = "1.0"
+# A crate that provides numeric type conversion functionality (ToPrimitive)
+num-traits = "0.2"
+# A crate for efficient array manipulation
+ndarray = "0.15"
+# Crates that provide statistical distribution functionality
+statrs = "0.18"
+# A crate for random number generation
+rand = "0.8"
+
+
+[dev-dependencies]
+# Crates for benchmarking
+criterion = "0.5"
+# A crate for creating temporary archives, often used in testing
+tempfile = "3.8"
+# Random number generation (listed again in dev-dependencies because different versions of rand may have different feature requirements, so it is kept consistent with dependencies here)
+rand = "0.8"
