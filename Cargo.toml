@@ -20,9 +20,9 @@ homepage = "https://github.com/semmyenator/statsrust"
 # A link to the project's documentation (usually pointing to docs.rs, which is automatically generated)
 documentation = "https://docs.rs/statsrust"
 # Keywords describing the project content, which are helpful for searching
-keywords = ["statsrust", "data-analysis", "mathematics", "kde", "normal-distribution", "probability", "numerical-stability"]
+keywords = ["data-analysis", "normal-distribution", "probability", "numerical-stability"]
 # The category to which the project belongs, which helps in browsing
-categories = ["science", "science::mathematics", "science::data-analysis"]
+categories = ["science", "algorithms", "data-structures"]
 # The path to the README file, which will be displayed on the crates.io page
 readme = "README.md"
 
@@ -54,3 +54,6 @@ criterion = "0.5"
 tempfile = "3.8"
 # Random number generation (listed again in dev-dependencies because different versions of rand may have different feature requirements, so it is kept consistent with dependencies here)
 rand = "0.8"
+
+[workspace]
+publish = { allow-dirty = true }
