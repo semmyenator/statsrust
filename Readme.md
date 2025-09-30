@@ -1,6 +1,7 @@
 # statsrust - Lean Statistical Analysis Library for Rust
-https://img.shields.io/badge/License-Apache%202.0%20%7C%20MIT-blue.svg
-https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg
+
+![Apache 2.0 | MIT License](https://img.shields.io/badge/License-Apache%202.0%20%7C%20MIT-blue.svg)
+![CC BY 4.0 License](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)
 
 statsrust is a minimal, high-performance statistical analysis library for Rust developers, designed with emphasis on numerical stability, mathematical correctness, and zero-cost abstractions. This lean version focuses on core statistical functionality without heavy dependencies.
 
@@ -117,3 +118,4 @@ Documentation content is licensed under:
 
 This document is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 Original author: statsrust Authors
+
