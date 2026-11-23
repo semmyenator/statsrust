@@ -1,0 +1,16 @@
+[package]
+name = "statsrust"
+version = "0.1.0"
+edition = "2021"
+authors = ["StatsRust Contributors"]
+description = "A lightweight, zero-dependency statistical library for Rust inspired by Python's statistics module."
+readme = "README_EN.md"
+license = "MIT OR Apache-2.0"
+keywords = ["statistics", "math", "kde", "normal-distribution", "zero-dependency"]
+categories = ["mathematics", "science", "algorithms"]
+
+[lib]
+name = "statsrust"
+path = "statsrust.rs"
+
+[dependencies]
